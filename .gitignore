@@ -1,0 +1,9 @@
+/target
+
+# Image files
+*.png
+*.tif
+*.jpg
+
+# MacOS 
+*.DS_Store
