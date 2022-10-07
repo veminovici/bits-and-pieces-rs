@@ -5,3 +5,8 @@
 ## 1.1 Extract Exif
 An example of extracting **exif** metadata from a given image.
 [code]("./images/exif")
+
+# 2. Parser
+A parser example using the nom crate.
+
+[code]("./nom-parser-rs"), [readme]("./nom-parser-rs/README.md")

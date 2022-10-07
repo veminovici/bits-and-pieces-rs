@@ -2,4 +2,6 @@
 
 members = [
     "./images/exif",
+    "./images/qr",
+    "./nom-parser-rs",
 ]
