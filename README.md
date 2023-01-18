@@ -8,5 +8,8 @@ An example of extracting **exif** metadata from a given image.
 
 # 2. Parser
 A parser example using the nom crate.
-
 [code]("./nom-parser-rs"), [readme]("./nom-parser-rs/README.md")
+
+# 3. Github
+An example for quering the github graphql.
+[code]("./github-rs")
