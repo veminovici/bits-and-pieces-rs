@@ -1,6 +1,8 @@
 [workspace]
 
 members = [
+    "rust-cow",
+    "./github-rs",
     "./images/exif",
     "./images/qr",
     "./nom-parser-rs",
