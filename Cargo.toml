@@ -1,9 +1,8 @@
 [workspace]
+resolver = "2"
 
-members = [
-    "rust-cow",
-    "./github-rs",
-    "./images/exif",
-    "./images/qr",
-    "./nom-parser-rs",
+members = [ 
+    "memory_mapped_io/mem_inter_proc_write", 
+    "memory_mapped_io/mem_inter_proc_read",
+    "memory_mapped_io/mem_read_file"
 ]
