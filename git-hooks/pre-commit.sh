@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "pre-commit script is running"
+echo "[TST] pre-commit script is running"
 
 rust_changes=$(git diff --staged .)
 
