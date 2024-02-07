@@ -9,6 +9,20 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9c198f91728a82281a64e1f4f9eeb25d82cb32a5de251c6bd1b5154d63a8e7bd"
 
 [[package]]
+name = "mem_concurrent_read"
+version = "0.1.0"
+dependencies = [
+ "memmap2",
+]
+
+[[package]]
+name = "mem_database"
+version = "0.1.0"
+dependencies = [
+ "memmap2",
+]
+
+[[package]]
 name = "mem_inter_proc_read"
 version = "0.1.0"
 dependencies = [
@@ -23,7 +37,28 @@ dependencies = [
 ]
 
 [[package]]
+name = "mem_large_write"
+version = "0.1.0"
+dependencies = [
+ "memmap2",
+]
+
+[[package]]
 name = "mem_read_file"
+version = "0.1.0"
+dependencies = [
+ "memmap2",
+]
+
+[[package]]
+name = "mem_realtime_processing"
+version = "0.1.0"
+dependencies = [
+ "memmap2",
+]
+
+[[package]]
+name = "mem_ring_buffer"
 version = "0.1.0"
 dependencies = [
  "memmap2",

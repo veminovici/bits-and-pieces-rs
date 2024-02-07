@@ -1,6 +1,6 @@
 use memmap2::MmapMut;
 use std::fs::OpenOptions;
-use std::io::{self, Write};
+use std::io;
 
 fn main() -> io::Result<()> {
     let file_path = "./../example_mem_inter_proc.dat";
