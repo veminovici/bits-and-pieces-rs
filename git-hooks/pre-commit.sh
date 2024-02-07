@@ -1,6 +1,7 @@
 #!/bin/bash
+echo "pre-commit script is running"
 
-rust_changes=$(git diff --staged src)
+rust_changes=$(git diff --staged .)
 
 if [[ -z $rust_changes ]];
 then
