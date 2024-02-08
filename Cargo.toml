@@ -1,8 +1,14 @@
 [workspace]
 resolver = "2"
 
-members = [ 
-    "memory_mapped_io/mem_inter_proc_write", 
+members = [
+    "memory_mapped_io/mem_inter_proc_write",
     "memory_mapped_io/mem_inter_proc_read",
-    "memory_mapped_io/mem_read_file"
-, "memory_mapped_io/mem_concurrent_read", "memory_mapped_io/mem_large_write", "memory_mapped_io/mem_ring_buffer", "memory_mapped_io/mem_database", "memory_mapped_io/mem_realtime_processing"]
+    "memory_mapped_io/mem_read_file",
+    "memory_mapped_io/mem_concurrent_read",
+    "memory_mapped_io/mem_large_write",
+    "memory_mapped_io/mem_ring_buffer",
+    "memory_mapped_io/mem_database",
+    "memory_mapped_io/mem_realtime_processing",
+    "api_gateways/api_gtw_hyper",
+]
