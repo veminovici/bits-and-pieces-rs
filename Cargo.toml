@@ -11,4 +11,7 @@ members = [
     "memory_mapped_io/mem_database",
     "memory_mapped_io/mem_realtime_processing",
     "api_gateways/api_gtw_hyper",
+    "data_structures/skiplist",
+    "grpc/grpc_server",
+    "grpc/grpc_client",
 ]
