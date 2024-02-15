@@ -13,5 +13,5 @@ members = [
     "api_gateways/api_gtw_hyper",
     "data_structures/skiplist",
     "grpc/grpc_server",
-    "grpc/grpc_client",
+    "grpc/grpc_client", "actors/act-ids",
 ]
