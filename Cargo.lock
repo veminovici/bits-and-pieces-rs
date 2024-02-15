@@ -3,8 +3,25 @@
 version = 3
 
 [[package]]
+name = "act-identifiers"
+version = "0.1.0"
+dependencies = [
+ "act-ids",
+]
+
+[[package]]
 name = "act-ids"
 version = "0.1.0"
+
+[[package]]
+name = "act-system"
+version = "0.1.0"
+dependencies = [
+ "act-identifiers",
+ "act-ids",
+ "anyhow",
+ "tokio",
+]
 
 [[package]]
 name = "addr2line"
