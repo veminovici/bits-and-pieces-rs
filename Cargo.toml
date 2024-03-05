@@ -17,5 +17,5 @@ members = [
     "actors/act-ids",
     "actors/act-identifiers",
     "actors/act-system",
-    "parsers/calc_parser", "text-summarizer", "cert-generator",
+    "parsers/calc_parser", "text-summarizer", "cert-generator", "api_gateways/learn_tower",
 ]
