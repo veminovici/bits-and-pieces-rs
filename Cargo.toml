@@ -17,5 +17,5 @@ members = [
     "actors/act-ids",
     "actors/act-identifiers",
     "actors/act-system",
-    "parsers/calc_parser", "text-summarizer", "cert-generator", "api_gateways/learn_tower", "api_gateways/websockets/ws_server", "api_gateways/websockets/ws_client",
+    "parsers/calc_parser", "text-summarizer", "cert-generator", "api_gateways/learn_tower", "api_gateways/websockets/ws_server", "api_gateways/websockets/ws_client", "concurrent/crossbeam-atomic-cell", "concurrent/crossbeam-array-queue", "concurrent/crossbeam-channels",
 ]
